@@ -1,0 +1,24 @@
+# Dependencias de Node.js (no se versionan, se regeneran con npm install)
+node_modules/
+
+# Variables de entorno reales (contienen credenciales - NUNCA versionar)
+.env
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs de Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorio de cobertura de tests
+coverage/
+
+# IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
